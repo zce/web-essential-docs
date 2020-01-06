@@ -74,6 +74,8 @@ MySQL 的安装同样建议采用解压版（目的是了解那些自动安装�
 
    # 设置数据库访问密码，一定要加分号
    mysql> set password for root@localhost = password('123');
+   # 新版本使用以下语句
+   mysql> alter user 'root'@'localhost' identified by '新密码';
    ```
 
 
